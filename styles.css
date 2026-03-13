@@ -8,6 +8,7 @@
 body {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* Animated Gradient Background */
@@ -210,9 +211,7 @@ h1 {
 /* Footer Styles */
 .app-footer {
     width: 100%;
-    margin-top: 25px;
-    padding-top: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,16 +219,18 @@ h1 {
 
 .social-links {
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .social-links a {
-    color: #444;
-    font-size: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 32px;
     transition: all 0.3s ease;
+    text-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 .social-links a:hover {
-    color: #667eea;
-    transform: translateY(-3px);
+    color: #fff;
+    transform: translateY(-5px) scale(1.1);
+    text-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }

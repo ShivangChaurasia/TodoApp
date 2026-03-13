@@ -61,7 +61,8 @@ function TodoApp() {
     };
 
     return (
-        <div className="app-container">
+        <>
+            <div className="app-container">
             {/* Lottie Animation (Cute Checkmark/Task Animation) */}
             <div className="lottie-container">
                 <lottie-player 
@@ -137,6 +138,7 @@ function TodoApp() {
                     ))
                 )}
             </div>
+            </div>
             
             <footer className="app-footer">
                 <div className="social-links">
@@ -148,7 +150,7 @@ function TodoApp() {
                     </a>
                 </div>
             </footer>
-        </div>
+        </>
     );
 }
 
