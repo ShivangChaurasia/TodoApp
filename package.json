@@ -1,0 +1,16 @@
+{
+  "name": "react-todo-app",
+  "version": "1.0.0",
+  "description": "A React Todo app using HTML, CSS, and Babel",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx live-server --port=5174 ."
+  },
+  "keywords": [
+    "react",
+    "todo",
+    "localstorage"
+  ],
+  "author": "",
+  "license": "ISC"
+}
