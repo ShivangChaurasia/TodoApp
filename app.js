@@ -137,6 +137,17 @@ function TodoApp() {
                     ))
                 )}
             </div>
+            
+            <footer className="app-footer">
+                <div className="social-links">
+                    <a href="https://github.com/ShivangChaurasia" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        <i className="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shivang-chaurasia-754232297/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                        <i className="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </footer>
         </div>
     );
 }
